@@ -1,0 +1,75 @@
+* {
+  margin: 0 0;
+}
+
+img {
+  display: inline-block;
+}
+
+body {
+  padding: 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.breed-select {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(41, 41, 41);
+  margin-bottom: 24px;
+  width: 360px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 16px;
+  display: none;
+  border-color: rgba(0, 0, 0, 0.274);
+}
+
+.cat-info {
+  display: flex;
+  gap: 24px;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 1000px;
+}
+
+.cat-info-img {
+  min-width: 360px;
+  max-width: 360px;
+}
+
+.cat-info-img img {
+  border-radius: 10px;
+}
+
+.cat-info-content h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1em;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.cat-info-content h2 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 1em;
+  margin-bottom: 24px;
+}
+
+.cat-info-content p {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 16px;
+}
